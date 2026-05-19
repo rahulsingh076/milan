@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamang Milan | Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="portfolio">
+      <aside class="sidebar" aria-label="Profile summary">
+        <div class="profile-badge">TM</div>
+        <p class="small-label">Frontend Developer</p>
+        <h1>Tamang Milan</h1>
+        <p class="intro">
+          A KDU Global student from Nepal learning to build simple, useful, and
+          responsive websites with HTML, CSS, and JavaScript.
+        </p>
+
+        <nav class="side-nav" aria-label="Portfolio navigation">
+          <a href="#details">Details</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </aside>
+
+      <section class="content">
+        <section class="hero-strip" id="details">
+          <div>
+            <p class="small-label">Student Information</p>
+            <h2>Focused on clean frontend basics.</h2>
+          </div>
+          <dl class="info-grid">
+            <div>
+              <dt>Student ID</dt>
+              <dd>2417130</dd>
+            </div>
+            <div>
+              <dt>University</dt>
+              <dd>KDU Global</dd>
+            </div>
+            <div>
+              <dt>Country</dt>
+              <dd>Nepal</dd>
+            </div>
+            <div>
+              <dt>Main Skill</dt>
+              <dd>Frontend Development</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="panel" id="skills">
+          <div class="section-title">
+            <p class="small-label">Skills</p>
+            <h2>Tools Milan is practicing.</h2>
+          </div>
+          <div class="skill-row">
+            <article>
+              <span class="skill-icon">H</span>
+              <h3>HTML</h3>
+              <p>Semantic pages, headings, links, forms, and accessible content.</p>
+            </article>
+            <article>
+              <span class="skill-icon">C</span>
+              <h3>CSS</h3>
+              <p>Layouts, spacing, colors, responsive design, and visual polish.</p>
+            </article>
+            <article>
+              <span class="skill-icon">J</span>
+              <h3>JavaScript</h3>
+              <p>Events, DOM updates, buttons, simple logic, and interactions.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel" id="projects">
+          <div class="section-title">
+            <p class="small-label">Projects</p>
+            <h2>Simple frontend project ideas.</h2>
+          </div>
+
+          <div class="project-layout">
+            <div class="project-tabs" role="tablist" aria-label="Project examples">
+              <button class="tab active" type="button" data-project="profile">
+                Profile
+              </button>
+              <button class="tab" type="button" data-project="gallery">
+                Gallery
+              </button>
+              <button class="tab" type="button" data-project="calculator">
+                Calculator
+              </button>
+            </div>
+
+            <article class="project-preview" aria-live="polite">
+              <p class="small-label" id="projectType">HTML + CSS</p>
+              <h3 id="projectTitle">Student Profile Website</h3>
+              <p id="projectText">
+                A clean one-page profile website showing student details,
+                skills, contact information, and project sections.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="contact-panel" id="contact">
+          <div>
+            <p class="small-label">Contact</p>
+            <h2>Ready to keep improving frontend skills.</h2>
+          </div>
+          <a class="email-link" href="mailto:tamang.milan@example.com">
+            millan.tamang2057@gmail.com
+          </a>
+        </section>
+
+        <footer>
+          <p>&copy; <span id="year"></span> Tamang Milan. Built with HTML, CSS, and JavaScript.</p>
+        </footer>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
